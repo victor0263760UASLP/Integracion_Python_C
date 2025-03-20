@@ -4,4 +4,20 @@ Repositorio dedicado a al proyecto de estancia de laboratorio de investigacion d
 Integra a detalle las  herramientas numericas para el desarrollo  de herramientas de la teoria NESCGLE, detallados principalmente de la siguinte manera:
 Primero integramos nociones de la suma de  variables, esto por que muchas de las funciones que se desarrollan en la teoria NESCGLE , parten de una funcion con dos variables, por lo cual aplicamos el siguiente ejemplo:
 
+```c 
+#include <stdlib.h>// include library c.
+#include <stdio.h> //include functions of the library  c.
+
+ ``` 
+integra la utilizacion de una funcion que suma dos numeros de la siguiente manera:
+```c 
+int suma(  int  a,  int b,  int sum){
+sum = a + b;
+//Posteriormente podemos agregar de manera compacta la suma con la variable sum , además de agregar el return para que regrese nuestra función de la 
+ //siguiente manera.
+
+return sum ;  
+//return(sum);
+
+}
 
