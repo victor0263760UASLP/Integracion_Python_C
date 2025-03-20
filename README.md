@@ -9,7 +9,7 @@ Primero integramos nociones de la suma de  variables, esto por que muchas de las
 #include <stdio.h> //include functions of the library  c.
 
  ``` 
-integra la utilizacion de una funcion que suma dos numeros de la siguiente manera:
+Utiliza una funcion que suma dos numeros de la siguiente manera:
 ```c 
 int suma(  int  a,  int b,  int sum){
 sum = a + b;
